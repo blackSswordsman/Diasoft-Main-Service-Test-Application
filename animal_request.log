@@ -1,0 +1,715 @@
+2024-08-03T14:22:08.978+03:00  INFO 11244 --- [DiasoftTest] [main] c.e.diasofttest.DiasoftTestApplication   : Starting DiasoftTestApplication using Java 17.0.12 with PID 11244 (C:\Users\awsma\IdeaProjects\DiasoftTest\build\classes\java\main started by awsma in C:\Users\awsma\IdeaProjects\DiasoftTest)
+2024-08-03T14:22:08.980+03:00  INFO 11244 --- [DiasoftTest] [main] c.e.diasofttest.DiasoftTestApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T14:22:09.023+03:00  INFO 11244 --- [DiasoftTest] [main] .s.b.d.c.l.DockerComposeLifecycleManager : Using Docker Compose file 'C:\Users\awsma\IdeaProjects\DiasoftTest\compose.yaml'
+2024-08-03T14:22:09.968+03:00  INFO 11244 --- [DiasoftTest] [main] .s.b.d.c.l.DockerComposeLifecycleManager : There are already Docker Compose services running, skipping startup
+2024-08-03T14:22:10.704+03:00  INFO 11244 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-03T14:22:10.705+03:00  INFO 11244 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-08-03T14:22:10.728+03:00  INFO 11244 --- [DiasoftTest] [main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.diasofttest.repository.AnimalRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-08-03T14:22:10.729+03:00  INFO 11244 --- [DiasoftTest] [main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.diasofttest.repository.RequestRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-08-03T14:22:10.729+03:00  INFO 11244 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 0 JDBC repository interfaces.
+2024-08-03T14:22:10.737+03:00  INFO 11244 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-03T14:22:10.738+03:00  INFO 11244 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-03T14:22:10.760+03:00  INFO 11244 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 2 JPA repository interfaces.
+2024-08-03T14:22:10.884+03:00  INFO 11244 --- [DiasoftTest] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ce974d1e-d4ba-3941-acd6-afdf14e2b170
+2024-08-03T14:22:11.169+03:00  INFO 11244 --- [DiasoftTest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-03T14:22:11.178+03:00  INFO 11244 --- [DiasoftTest] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-03T14:22:11.178+03:00  INFO 11244 --- [DiasoftTest] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-03T14:22:11.228+03:00  INFO 11244 --- [DiasoftTest] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-03T14:22:11.229+03:00  INFO 11244 --- [DiasoftTest] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1041 ms
+2024-08-03T14:22:11.349+03:00  INFO 11244 --- [DiasoftTest] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-03T14:22:11.402+03:00  INFO 11244 --- [DiasoftTest] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-03T14:22:11.438+03:00  INFO 11244 --- [DiasoftTest] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-03T14:22:11.715+03:00  INFO 11244 --- [DiasoftTest] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-03T14:22:11.738+03:00  INFO 11244 --- [DiasoftTest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-03T14:22:11.853+03:00  INFO 11244 --- [DiasoftTest] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3041beb3
+2024-08-03T14:22:11.855+03:00  INFO 11244 --- [DiasoftTest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-03T14:22:11.880+03:00  WARN 11244 --- [DiasoftTest] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-03T14:22:12.602+03:00  INFO 11244 --- [DiasoftTest] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-03T14:22:12.644+03:00  INFO 11244 --- [DiasoftTest] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03T14:22:12.877+03:00  WARN 11244 --- [DiasoftTest] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-03T14:22:13.418+03:00  INFO 11244 --- [DiasoftTest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-03T14:22:13.515+03:00  INFO 11244 --- [DiasoftTest] [main] c.e.diasofttest.DiasoftTestApplication   : Started DiasoftTestApplication in 4.971 seconds (process running for 5.458)
+2024-08-03T14:22:18.815+03:00  INFO 11244 --- [DiasoftTest] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-03T14:22:18.815+03:00  INFO 11244 --- [DiasoftTest] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-03T14:22:18.817+03:00  INFO 11244 --- [DiasoftTest] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-03T14:22:19.132+03:00  INFO 11244 --- [DiasoftTest] [http-nio-8080-exec-2] c.e.d.s.imlp.AnimalFeignClientService    : UUID: b096aed9-41fa-4ef4-8fd2-bb00c80a9e35, HTTP Status: 200, Animal Names: [horse, mouse, cat]
+2024-08-03T14:55:53.764+03:00  INFO 11244 --- [DiasoftTest] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03T14:55:53.766+03:00  INFO 11244 --- [DiasoftTest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-03T14:55:53.772+03:00  INFO 11244 --- [DiasoftTest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-03T17:34:00.529+03:00  INFO 13476 --- [DiasoftTest] [main] c.e.diasofttest.DiasoftTestApplication   : Starting DiasoftTestApplication using Java 17.0.12 with PID 13476 (C:\Users\awsma\IdeaProjects\DiasoftTest\build\classes\java\main started by awsma in C:\Users\awsma\IdeaProjects\DiasoftTest)
+2024-08-03T17:34:00.534+03:00  INFO 13476 --- [DiasoftTest] [main] c.e.diasofttest.DiasoftTestApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T17:34:00.665+03:00  INFO 13476 --- [DiasoftTest] [main] .s.b.d.c.l.DockerComposeLifecycleManager : Using Docker Compose file 'C:\Users\awsma\IdeaProjects\DiasoftTest\compose.yaml'
+2024-08-03T17:34:06.293+03:00  INFO 13476 --- [DiasoftTest] [main] .s.b.d.c.l.DockerComposeLifecycleManager : There are already Docker Compose services running, skipping startup
+2024-08-03T17:34:08.657+03:00  INFO 13476 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-03T17:34:08.663+03:00  INFO 13476 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-08-03T17:34:08.738+03:00  INFO 13476 --- [DiasoftTest] [main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.diasofttest.repository.AnimalRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-08-03T17:34:08.741+03:00  INFO 13476 --- [DiasoftTest] [main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.diasofttest.repository.RequestRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-08-03T17:34:08.745+03:00  INFO 13476 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 0 JDBC repository interfaces.
+2024-08-03T17:34:08.772+03:00  INFO 13476 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-03T17:34:08.779+03:00  INFO 13476 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-03T17:34:08.849+03:00  INFO 13476 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 2 JPA repository interfaces.
+2024-08-03T17:34:09.539+03:00  INFO 13476 --- [DiasoftTest] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ce974d1e-d4ba-3941-acd6-afdf14e2b170
+2024-08-03T17:34:11.696+03:00  INFO 13476 --- [DiasoftTest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-03T17:34:11.731+03:00  INFO 13476 --- [DiasoftTest] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-03T17:34:11.732+03:00  INFO 13476 --- [DiasoftTest] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-03T17:34:11.979+03:00  INFO 13476 --- [DiasoftTest] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-03T17:34:11.981+03:00  INFO 13476 --- [DiasoftTest] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5433 ms
+2024-08-03T17:34:12.523+03:00  INFO 13476 --- [DiasoftTest] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-03T17:34:12.669+03:00  INFO 13476 --- [DiasoftTest] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-03T17:34:12.791+03:00  INFO 13476 --- [DiasoftTest] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-03T17:34:14.695+03:00  INFO 13476 --- [DiasoftTest] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-03T17:34:14.910+03:00  INFO 13476 --- [DiasoftTest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-03T17:34:15.815+03:00  INFO 13476 --- [DiasoftTest] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@35e689a0
+2024-08-03T17:34:15.825+03:00  INFO 13476 --- [DiasoftTest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-03T17:34:16.346+03:00  WARN 13476 --- [DiasoftTest] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-03T17:34:21.498+03:00  INFO 13476 --- [DiasoftTest] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-03T17:34:21.924+03:00  INFO 13476 --- [DiasoftTest] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03T17:34:23.768+03:00  WARN 13476 --- [DiasoftTest] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-03T17:34:27.715+03:00  INFO 13476 --- [DiasoftTest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-03T17:34:28.420+03:00  INFO 13476 --- [DiasoftTest] [main] c.e.diasofttest.DiasoftTestApplication   : Started DiasoftTestApplication in 29.448 seconds (process running for 31.965)
+2024-08-03T17:34:38.295+03:00  INFO 13476 --- [DiasoftTest] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-03T17:34:38.296+03:00  INFO 13476 --- [DiasoftTest] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-03T17:34:38.302+03:00  INFO 13476 --- [DiasoftTest] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2024-08-03T17:34:39.442+03:00  INFO 13476 --- [DiasoftTest] [http-nio-8080-exec-2] c.e.d.s.imlp.AnimalFeignClientService    : UUID: 9e1af929-a486-4df9-9a2a-6a232afc07a9, HTTP Status: 200, Animal Names: [horse, mouse, cat]
+2024-08-03T17:35:08.292+03:00  INFO 13476 --- [DiasoftTest] [http-nio-8080-exec-5] c.e.d.s.imlp.AnimalFeignClientService    : UUID: 2c439686-3bc5-43d9-acae-c158e8a5f5bb, HTTP Status: 200, Animal Names: [horse, mouse, cat]
+2024-08-03T18:02:57.308+03:00  INFO 13476 --- [DiasoftTest] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03T18:02:57.312+03:00  INFO 13476 --- [DiasoftTest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-03T18:02:57.326+03:00  INFO 13476 --- [DiasoftTest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-03T18:04:10.334+03:00  INFO 10676 --- [DiasoftTest] [main] c.e.diasofttest.DiasoftTestApplication   : Starting DiasoftTestApplication using Java 17.0.12 with PID 10676 (C:\Users\awsma\IdeaProjects\DiasoftTest\build\classes\java\main started by awsma in C:\Users\awsma\IdeaProjects\DiasoftTest)
+2024-08-03T18:04:10.340+03:00  INFO 10676 --- [DiasoftTest] [main] c.e.diasofttest.DiasoftTestApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T18:04:10.408+03:00  INFO 10676 --- [DiasoftTest] [main] .s.b.d.c.l.DockerComposeLifecycleManager : Using Docker Compose file 'C:\Users\awsma\IdeaProjects\DiasoftTest\compose.yaml'
+2024-08-03T18:04:11.994+03:00  INFO 10676 --- [DiasoftTest] [main] .s.b.d.c.l.DockerComposeLifecycleManager : There are already Docker Compose services running, skipping startup
+2024-08-03T18:04:13.331+03:00  INFO 10676 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-03T18:04:13.332+03:00  INFO 10676 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-08-03T18:04:13.397+03:00  INFO 10676 --- [DiasoftTest] [main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.diasofttest.repository.AnimalRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-08-03T18:04:13.399+03:00  INFO 10676 --- [DiasoftTest] [main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.diasofttest.repository.RequestRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-08-03T18:04:13.400+03:00  INFO 10676 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 0 JDBC repository interfaces.
+2024-08-03T18:04:13.432+03:00  INFO 10676 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-03T18:04:13.433+03:00  INFO 10676 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-03T18:04:13.494+03:00  INFO 10676 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 2 JPA repository interfaces.
+2024-08-03T18:04:13.815+03:00  INFO 10676 --- [DiasoftTest] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ce974d1e-d4ba-3941-acd6-afdf14e2b170
+2024-08-03T18:04:14.631+03:00  INFO 10676 --- [DiasoftTest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-03T18:04:14.660+03:00  INFO 10676 --- [DiasoftTest] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-03T18:04:14.660+03:00  INFO 10676 --- [DiasoftTest] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-03T18:04:14.791+03:00  INFO 10676 --- [DiasoftTest] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-03T18:04:14.794+03:00  INFO 10676 --- [DiasoftTest] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2564 ms
+2024-08-03T18:04:15.078+03:00  INFO 10676 --- [DiasoftTest] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-03T18:04:15.163+03:00  INFO 10676 --- [DiasoftTest] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-03T18:04:15.213+03:00  INFO 10676 --- [DiasoftTest] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-03T18:04:15.806+03:00  INFO 10676 --- [DiasoftTest] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-03T18:04:15.847+03:00  INFO 10676 --- [DiasoftTest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-03T18:04:16.024+03:00  INFO 10676 --- [DiasoftTest] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@69069866
+2024-08-03T18:04:16.025+03:00  INFO 10676 --- [DiasoftTest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-03T18:04:16.064+03:00  WARN 10676 --- [DiasoftTest] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-03T18:04:17.928+03:00  INFO 10676 --- [DiasoftTest] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-03T18:04:18.064+03:00  INFO 10676 --- [DiasoftTest] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03T18:04:18.678+03:00  WARN 10676 --- [DiasoftTest] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-03T18:04:19.999+03:00  INFO 10676 --- [DiasoftTest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-03T18:04:20.240+03:00  INFO 10676 --- [DiasoftTest] [main] c.e.diasofttest.DiasoftTestApplication   : Started DiasoftTestApplication in 10.626 seconds (process running for 11.409)
+2024-08-03T18:04:20.690+03:00  INFO 10676 --- [DiasoftTest] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03T18:04:20.700+03:00  INFO 10676 --- [DiasoftTest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-03T18:04:20.733+03:00  INFO 10676 --- [DiasoftTest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-03T18:43:09.038+03:00  INFO 19224 --- [DiasoftTest] [main] c.e.diasofttest.DiasoftTestApplication   : Starting DiasoftTestApplication using Java 17.0.12 with PID 19224 (C:\Users\awsma\IdeaProjects\DiasoftTest\build\classes\java\main started by awsma in C:\Users\awsma\IdeaProjects\DiasoftTest)
+2024-08-03T18:43:09.047+03:00  INFO 19224 --- [DiasoftTest] [main] c.e.diasofttest.DiasoftTestApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T18:43:09.121+03:00  INFO 19224 --- [DiasoftTest] [main] .s.b.d.c.l.DockerComposeLifecycleManager : Using Docker Compose file 'C:\Users\awsma\IdeaProjects\DiasoftTest\compose.yaml'
+2024-08-03T18:43:10.435+03:00  INFO 19224 --- [DiasoftTest] [main] .s.b.d.c.l.DockerComposeLifecycleManager : There are already Docker Compose services running, skipping startup
+2024-08-03T18:43:11.549+03:00  INFO 19224 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-03T18:43:11.550+03:00  INFO 19224 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-08-03T18:43:11.581+03:00  INFO 19224 --- [DiasoftTest] [main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.diasofttest.repository.RequestRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-08-03T18:43:11.582+03:00  INFO 19224 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 0 JDBC repository interfaces.
+2024-08-03T18:43:11.593+03:00  INFO 19224 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-03T18:43:11.595+03:00  INFO 19224 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-03T18:43:11.622+03:00  INFO 19224 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interface.
+2024-08-03T18:43:11.851+03:00  INFO 19224 --- [DiasoftTest] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=50a78b7f-1351-3dc9-ab12-dc726ff47c0e
+2024-08-03T18:43:12.338+03:00  INFO 19224 --- [DiasoftTest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-03T18:43:12.365+03:00  INFO 19224 --- [DiasoftTest] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-03T18:43:12.366+03:00  INFO 19224 --- [DiasoftTest] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-03T18:43:12.447+03:00  INFO 19224 --- [DiasoftTest] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-03T18:43:12.447+03:00  INFO 19224 --- [DiasoftTest] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1784 ms
+2024-08-03T18:43:12.648+03:00  INFO 19224 --- [DiasoftTest] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-03T18:43:12.715+03:00  INFO 19224 --- [DiasoftTest] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-03T18:43:12.753+03:00  INFO 19224 --- [DiasoftTest] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-03T18:43:13.532+03:00  INFO 19224 --- [DiasoftTest] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-03T18:43:13.597+03:00  INFO 19224 --- [DiasoftTest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-03T18:43:13.832+03:00  INFO 19224 --- [DiasoftTest] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1a34a51e
+2024-08-03T18:43:13.834+03:00  INFO 19224 --- [DiasoftTest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-03T18:43:13.871+03:00  WARN 19224 --- [DiasoftTest] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-03T18:43:15.270+03:00  INFO 19224 --- [DiasoftTest] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-03T18:43:15.347+03:00  INFO 19224 --- [DiasoftTest] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03T18:43:15.791+03:00  WARN 19224 --- [DiasoftTest] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-03T18:43:16.685+03:00  INFO 19224 --- [DiasoftTest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-03T18:43:16.888+03:00  INFO 19224 --- [DiasoftTest] [main] c.e.diasofttest.DiasoftTestApplication   : Started DiasoftTestApplication in 8.77 seconds (process running for 9.719)
+2024-08-03T18:43:17.403+03:00  INFO 19224 --- [DiasoftTest] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03T18:43:17.405+03:00  INFO 19224 --- [DiasoftTest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-03T18:43:17.420+03:00  INFO 19224 --- [DiasoftTest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-03T18:43:49.540+03:00  INFO 21268 --- [DiasoftTest] [main] c.e.diasofttest.DiasoftTestApplication   : Starting DiasoftTestApplication using Java 17.0.12 with PID 21268 (C:\Users\awsma\IdeaProjects\DiasoftTest\build\classes\java\main started by awsma in C:\Users\awsma\IdeaProjects\DiasoftTest)
+2024-08-03T18:43:49.546+03:00  INFO 21268 --- [DiasoftTest] [main] c.e.diasofttest.DiasoftTestApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T18:43:49.636+03:00  INFO 21268 --- [DiasoftTest] [main] .s.b.d.c.l.DockerComposeLifecycleManager : Using Docker Compose file 'C:\Users\awsma\IdeaProjects\DiasoftTest\compose.yaml'
+2024-08-03T18:43:50.997+03:00  INFO 21268 --- [DiasoftTest] [main] .s.b.d.c.l.DockerComposeLifecycleManager : There are already Docker Compose services running, skipping startup
+2024-08-03T18:43:52.094+03:00  INFO 21268 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-03T18:43:52.096+03:00  INFO 21268 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-08-03T18:43:52.132+03:00  INFO 21268 --- [DiasoftTest] [main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.diasofttest.repository.RequestRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-08-03T18:43:52.133+03:00  INFO 21268 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 0 JDBC repository interfaces.
+2024-08-03T18:43:52.146+03:00  INFO 21268 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-03T18:43:52.147+03:00  INFO 21268 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-03T18:43:52.178+03:00  INFO 21268 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interface.
+2024-08-03T18:43:52.453+03:00  INFO 21268 --- [DiasoftTest] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=50a78b7f-1351-3dc9-ab12-dc726ff47c0e
+2024-08-03T18:43:52.929+03:00  INFO 21268 --- [DiasoftTest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-03T18:43:52.940+03:00  INFO 21268 --- [DiasoftTest] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-03T18:43:52.941+03:00  INFO 21268 --- [DiasoftTest] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-03T18:43:53.046+03:00  INFO 21268 --- [DiasoftTest] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-03T18:43:53.047+03:00  INFO 21268 --- [DiasoftTest] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1815 ms
+2024-08-03T18:43:53.266+03:00  INFO 21268 --- [DiasoftTest] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-03T18:43:53.348+03:00  INFO 21268 --- [DiasoftTest] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-03T18:43:53.389+03:00  INFO 21268 --- [DiasoftTest] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-03T18:43:53.873+03:00  INFO 21268 --- [DiasoftTest] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-03T18:43:53.912+03:00  INFO 21268 --- [DiasoftTest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-03T18:43:54.095+03:00  INFO 21268 --- [DiasoftTest] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@225e09f0
+2024-08-03T18:43:54.101+03:00  INFO 21268 --- [DiasoftTest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-03T18:43:54.168+03:00  WARN 21268 --- [DiasoftTest] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-03T18:43:55.388+03:00  INFO 21268 --- [DiasoftTest] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-03T18:43:55.454+03:00  INFO 21268 --- [DiasoftTest] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03T18:43:55.890+03:00  WARN 21268 --- [DiasoftTest] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-03T18:43:56.691+03:00  INFO 21268 --- [DiasoftTest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-03T18:43:56.827+03:00  INFO 21268 --- [DiasoftTest] [main] c.e.diasofttest.DiasoftTestApplication   : Started DiasoftTestApplication in 8.009 seconds (process running for 9.522)
+2024-08-03T18:44:50.882+03:00  INFO 21268 --- [DiasoftTest] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-03T18:44:50.884+03:00  INFO 21268 --- [DiasoftTest] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-03T18:44:50.888+03:00  INFO 21268 --- [DiasoftTest] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-08-03T18:44:51.611+03:00 ERROR 21268 --- [DiasoftTest] [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: feign.FeignException$InternalServerError: [500] during [GET] to [http://localhost:8081/animals] [AnimalFeignClient#getAnimals()]: [{"timestamp":"2024-08-03T15:44:51.336+00:00","status":500,"error":"Internal Server Error","path":"/animals"}]] with root cause
+
+feign.FeignException$InternalServerError: [500] during [GET] to [http://localhost:8081/animals] [AnimalFeignClient#getAnimals()]: [{"timestamp":"2024-08-03T15:44:51.336+00:00","status":500,"error":"Internal Server Error","path":"/animals"}]
+	at feign.FeignException.serverErrorStatus(FeignException.java:259) ~[feign-core-13.3.jar:na]
+	at feign.FeignException.errorStatus(FeignException.java:206) ~[feign-core-13.3.jar:na]
+	at feign.FeignException.errorStatus(FeignException.java:194) ~[feign-core-13.3.jar:na]
+	at feign.codec.ErrorDecoder$Default.decode(ErrorDecoder.java:103) ~[feign-core-13.3.jar:na]
+	at feign.InvocationContext.decodeError(InvocationContext.java:126) ~[feign-core-13.3.jar:na]
+	at feign.InvocationContext.proceed(InvocationContext.java:72) ~[feign-core-13.3.jar:na]
+	at feign.ResponseHandler.handleResponse(ResponseHandler.java:63) ~[feign-core-13.3.jar:na]
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:114) ~[feign-core-13.3.jar:na]
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:70) ~[feign-core-13.3.jar:na]
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:99) ~[feign-core-13.3.jar:na]
+	at jdk.proxy2/jdk.proxy2.$Proxy125.getAnimals(Unknown Source) ~[na:na]
+	at com.example.diasofttest.service.impl.AnimalServiceImpl.fetchAndSaveAnimalNames(AnimalServiceImpl.java:31) ~[main/:na]
+	at com.example.diasofttest.controller.AnimalController.fetchAnimalNames(AnimalController.java:17) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2024-08-03T18:46:13.052+03:00  WARN 21268 --- [DiasoftTest] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=48s825ms251µs100ns).
+2024-08-03T18:46:13.509+03:00  WARN 21268 --- [DiasoftTest] [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 23502
+2024-08-03T18:46:13.510+03:00 ERROR 21268 --- [DiasoftTest] [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : ERROR: null value in column "id" of relation "requests" violates not-null constraint
+  Подробности: Failing row contains (null, , 200).
+2024-08-03T18:46:13.557+03:00 ERROR 21268 --- [DiasoftTest] [http-nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: could not execute statement [ERROR: null value in column "id" of relation "requests" violates not-null constraint
+  Подробности: Failing row contains (null, , 200).] [insert into requests (animal_names,response_status) values (?,?) returning id]; SQL [insert into requests (animal_names,response_status) values (?,?) returning id]; constraint [id" of relation "requests]] with root cause
+
+org.postgresql.util.PSQLException: ERROR: null value in column "id" of relation "requests" violates not-null constraint
+  Подробности: Failing row contains (null, , 200).
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180) ~[postgresql-42.7.3.jar:42.7.3]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java) ~[HikariCP-5.1.0.jar:na]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.execute(ResultSetReturnImpl.java:129) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.id.insert.InsertReturningDelegate.executeAndExtractReturning(InsertReturningDelegate.java:96) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.id.insert.AbstractReturningDelegate.performMutation(AbstractReturningDelegate.java:58) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:47) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.doStaticInserts(InsertCoordinatorStandard.java:194) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.coordinateInsert(InsertCoordinatorStandard.java:132) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.insert(InsertCoordinatorStandard.java:95) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:85) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:670) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:291) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:272) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:391) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:305) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:224) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:137) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.saveTransientEntity(DefaultMergeEventListener.java:379) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsTransient(DefaultMergeEventListener.java:299) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:419) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.merge(DefaultMergeEventListener.java:210) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.doMerge(DefaultMergeEventListener.java:148) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:132) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:86) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:850) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:836) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:364) ~[spring-orm-6.1.11.jar:6.1.11]
+	at jdk.proxy2/jdk.proxy2.$Proxy116.merge(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:319) ~[spring-orm-6.1.11.jar:6.1.11]
+	at jdk.proxy2/jdk.proxy2.$Proxy116.merge(Unknown Source) ~[na:na]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:632) ~[spring-data-jpa-3.3.2.jar:3.3.2]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277) ~[spring-data-commons-3.3.2.jar:3.3.2]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170) ~[spring-data-commons-3.3.2.jar:3.3.2]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-3.3.2.jar:3.3.2]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:516) ~[spring-data-commons-3.3.2.jar:3.3.2]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285) ~[spring-data-commons-3.3.2.jar:3.3.2]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:628) ~[spring-data-commons-3.3.2.jar:3.3.2]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:168) ~[spring-data-commons-3.3.2.jar:3.3.2]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:143) ~[spring-data-commons-3.3.2.jar:3.3.2]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:70) ~[spring-data-commons-3.3.2.jar:3.3.2]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:379) ~[spring-tx-6.1.11.jar:6.1.11]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.1.11.jar:6.1.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138) ~[spring-tx-6.1.11.jar:6.1.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165) ~[spring-data-jpa-3.3.2.jar:3.3.2]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223) ~[spring-aop-6.1.11.jar:6.1.11]
+	at jdk.proxy2/jdk.proxy2.$Proxy120.save(Unknown Source) ~[na:na]
+	at com.example.diasofttest.service.impl.AnimalServiceImpl.fetchAndSaveAnimalNames(AnimalServiceImpl.java:42) ~[main/:na]
+	at com.example.diasofttest.controller.AnimalController.fetchAnimalNames(AnimalController.java:17) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2024-08-03T18:47:54.687+03:00  INFO 21268 --- [DiasoftTest] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03T18:47:54.695+03:00  INFO 21268 --- [DiasoftTest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-03T18:47:54.703+03:00  INFO 21268 --- [DiasoftTest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-03T18:48:01.263+03:00  INFO 11180 --- [DiasoftTest] [main] c.e.diasofttest.DiasoftTestApplication   : Starting DiasoftTestApplication using Java 17.0.12 with PID 11180 (C:\Users\awsma\IdeaProjects\DiasoftTest\build\classes\java\main started by awsma in C:\Users\awsma\IdeaProjects\DiasoftTest)
+2024-08-03T18:48:01.266+03:00  INFO 11180 --- [DiasoftTest] [main] c.e.diasofttest.DiasoftTestApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T18:48:01.347+03:00  INFO 11180 --- [DiasoftTest] [main] .s.b.d.c.l.DockerComposeLifecycleManager : Using Docker Compose file 'C:\Users\awsma\IdeaProjects\DiasoftTest\compose.yaml'
+2024-08-03T18:48:02.606+03:00  INFO 11180 --- [DiasoftTest] [main] .s.b.d.c.l.DockerComposeLifecycleManager : There are already Docker Compose services running, skipping startup
+2024-08-03T18:48:03.684+03:00  INFO 11180 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-03T18:48:03.686+03:00  INFO 11180 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-08-03T18:48:03.722+03:00  INFO 11180 --- [DiasoftTest] [main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.diasofttest.repository.RequestRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-08-03T18:48:03.725+03:00  INFO 11180 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 0 JDBC repository interfaces.
+2024-08-03T18:48:03.738+03:00  INFO 11180 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-03T18:48:03.739+03:00  INFO 11180 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-03T18:48:03.778+03:00  INFO 11180 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interface.
+2024-08-03T18:48:04.080+03:00  INFO 11180 --- [DiasoftTest] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=50a78b7f-1351-3dc9-ab12-dc726ff47c0e
+2024-08-03T18:48:04.571+03:00  INFO 11180 --- [DiasoftTest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-03T18:48:04.586+03:00  INFO 11180 --- [DiasoftTest] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-03T18:48:04.586+03:00  INFO 11180 --- [DiasoftTest] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-03T18:48:04.672+03:00  INFO 11180 --- [DiasoftTest] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-03T18:48:04.674+03:00  INFO 11180 --- [DiasoftTest] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1828 ms
+2024-08-03T18:48:04.948+03:00  INFO 11180 --- [DiasoftTest] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-03T18:48:05.031+03:00  INFO 11180 --- [DiasoftTest] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-03T18:48:05.082+03:00  INFO 11180 --- [DiasoftTest] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-03T18:48:05.554+03:00  INFO 11180 --- [DiasoftTest] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-03T18:48:05.596+03:00  INFO 11180 --- [DiasoftTest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-03T18:48:05.855+03:00  INFO 11180 --- [DiasoftTest] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@67f591c2
+2024-08-03T18:48:05.861+03:00  INFO 11180 --- [DiasoftTest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-03T18:48:05.903+03:00  WARN 11180 --- [DiasoftTest] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-03T18:48:07.086+03:00  INFO 11180 --- [DiasoftTest] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-03T18:48:07.148+03:00  WARN 11180 --- [DiasoftTest] [main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "create table requests (response_status integer, id uuid generated by default as identity, animal_names varchar(255), primary key (id))" via JDBC [ERROR: identity column type must be smallint, integer, or bigint]
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table requests (response_status integer, id uuid generated by default as identity, animal_names varchar(255), primary key (id))" via JDBC [ERROR: identity column type must be smallint, integer, or bigint]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.tool.schema.internal.Helper.applySqlString(Helper.java:233) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.tool.schema.internal.Helper.applySqlStrings(Helper.java:217) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createTables(SchemaCreatorImpl.java:428) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createSequencesTablesConstraints(SchemaCreatorImpl.java:344) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:239) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:172) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:142) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:118) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:250) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421) ~[na:na]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.11.jar:6.1.11]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.11.jar:6.1.11]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.11.jar:6.1.11]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.11.jar:6.1.11]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) ~[spring-context-6.1.11.jar:6.1.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.11.jar:6.1.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.2.jar:3.3.2]
+	at com.example.diasofttest.DiasoftTestApplication.main(DiasoftTestApplication.java:13) ~[main/:na]
+Caused by: org.postgresql.util.PSQLException: ERROR: identity column type must be smallint, integer, or bigint
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:341) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:326) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:302) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:297) ~[postgresql-42.7.3.jar:42.7.3]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-5.1.0.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	... 39 common frames omitted
+
+2024-08-03T18:48:07.162+03:00  INFO 11180 --- [DiasoftTest] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03T18:48:07.733+03:00  WARN 11180 --- [DiasoftTest] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-03T18:48:08.933+03:00  INFO 11180 --- [DiasoftTest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-03T18:48:09.154+03:00  INFO 11180 --- [DiasoftTest] [main] c.e.diasofttest.DiasoftTestApplication   : Started DiasoftTestApplication in 8.633 seconds (process running for 9.789)
+2024-08-03T18:49:51.652+03:00  INFO 11180 --- [DiasoftTest] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03T18:49:51.655+03:00  WARN 11180 --- [DiasoftTest] [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-08-03T18:49:51.655+03:00  WARN 11180 --- [DiasoftTest] [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "requests" does not exist, skipping
+2024-08-03T18:49:51.657+03:00  INFO 11180 --- [DiasoftTest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-03T18:49:51.661+03:00  INFO 11180 --- [DiasoftTest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-03T18:49:57.646+03:00  INFO 22256 --- [DiasoftTest] [main] c.e.diasofttest.DiasoftTestApplication   : Starting DiasoftTestApplication using Java 17.0.12 with PID 22256 (C:\Users\awsma\IdeaProjects\DiasoftTest\build\classes\java\main started by awsma in C:\Users\awsma\IdeaProjects\DiasoftTest)
+2024-08-03T18:49:57.652+03:00  INFO 22256 --- [DiasoftTest] [main] c.e.diasofttest.DiasoftTestApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T18:49:57.741+03:00  INFO 22256 --- [DiasoftTest] [main] .s.b.d.c.l.DockerComposeLifecycleManager : Using Docker Compose file 'C:\Users\awsma\IdeaProjects\DiasoftTest\compose.yaml'
+2024-08-03T18:49:59.036+03:00  INFO 22256 --- [DiasoftTest] [main] .s.b.d.c.l.DockerComposeLifecycleManager : There are already Docker Compose services running, skipping startup
+2024-08-03T18:50:00.202+03:00  INFO 22256 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-03T18:50:00.203+03:00  INFO 22256 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-08-03T18:50:00.242+03:00  INFO 22256 --- [DiasoftTest] [main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.diasofttest.repository.RequestRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-08-03T18:50:00.243+03:00  INFO 22256 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 0 JDBC repository interfaces.
+2024-08-03T18:50:00.257+03:00  INFO 22256 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-03T18:50:00.258+03:00  INFO 22256 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-03T18:50:00.290+03:00  INFO 22256 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 1 JPA repository interface.
+2024-08-03T18:50:00.541+03:00  INFO 22256 --- [DiasoftTest] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=50a78b7f-1351-3dc9-ab12-dc726ff47c0e
+2024-08-03T18:50:00.985+03:00  INFO 22256 --- [DiasoftTest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-03T18:50:01.000+03:00  INFO 22256 --- [DiasoftTest] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-03T18:50:01.001+03:00  INFO 22256 --- [DiasoftTest] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-03T18:50:01.087+03:00  INFO 22256 --- [DiasoftTest] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-03T18:50:01.088+03:00  INFO 22256 --- [DiasoftTest] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1824 ms
+2024-08-03T18:50:01.319+03:00  INFO 22256 --- [DiasoftTest] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-03T18:50:01.391+03:00  INFO 22256 --- [DiasoftTest] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-03T18:50:01.444+03:00  INFO 22256 --- [DiasoftTest] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-03T18:50:01.958+03:00  INFO 22256 --- [DiasoftTest] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-03T18:50:01.999+03:00  INFO 22256 --- [DiasoftTest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-03T18:50:02.175+03:00  INFO 22256 --- [DiasoftTest] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@284c4f02
+2024-08-03T18:50:02.177+03:00  INFO 22256 --- [DiasoftTest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-03T18:50:02.225+03:00  WARN 22256 --- [DiasoftTest] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-03T18:50:03.656+03:00  INFO 22256 --- [DiasoftTest] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-03T18:50:03.690+03:00  WARN 22256 --- [DiasoftTest] [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-08-03T18:50:03.690+03:00  WARN 22256 --- [DiasoftTest] [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "requests" does not exist, skipping
+2024-08-03T18:50:03.732+03:00  INFO 22256 --- [DiasoftTest] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03T18:50:04.260+03:00  WARN 22256 --- [DiasoftTest] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-03T18:50:05.985+03:00  INFO 22256 --- [DiasoftTest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-03T18:50:06.186+03:00  INFO 22256 --- [DiasoftTest] [main] c.e.diasofttest.DiasoftTestApplication   : Started DiasoftTestApplication in 9.267 seconds (process running for 10.225)
+2024-08-03T18:50:47.078+03:00  INFO 22256 --- [DiasoftTest] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03T18:50:47.102+03:00  INFO 22256 --- [DiasoftTest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-03T18:50:47.104+03:00  INFO 22256 --- [DiasoftTest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-03T18:50:52.951+03:00  INFO 18828 --- [DiasoftTest] [main] c.e.diasofttest.DiasoftTestApplication   : Starting DiasoftTestApplication using Java 17.0.12 with PID 18828 (C:\Users\awsma\IdeaProjects\DiasoftTest\build\classes\java\main started by awsma in C:\Users\awsma\IdeaProjects\DiasoftTest)
+2024-08-03T18:50:52.954+03:00  INFO 18828 --- [DiasoftTest] [main] c.e.diasofttest.DiasoftTestApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T18:50:53.027+03:00  INFO 18828 --- [DiasoftTest] [main] .s.b.d.c.l.DockerComposeLifecycleManager : Using Docker Compose file 'C:\Users\awsma\IdeaProjects\DiasoftTest\compose.yaml'
+2024-08-03T18:50:54.257+03:00  INFO 18828 --- [DiasoftTest] [main] .s.b.d.c.l.DockerComposeLifecycleManager : There are already Docker Compose services running, skipping startup
+2024-08-03T18:50:55.376+03:00  INFO 18828 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-03T18:50:55.381+03:00  INFO 18828 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-08-03T18:50:55.420+03:00  INFO 18828 --- [DiasoftTest] [main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.diasofttest.repository.RequestRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-08-03T18:50:55.421+03:00  INFO 18828 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 0 JDBC repository interfaces.
+2024-08-03T18:50:55.435+03:00  INFO 18828 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-03T18:50:55.436+03:00  INFO 18828 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-03T18:50:55.469+03:00  INFO 18828 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interface.
+2024-08-03T18:50:55.723+03:00  INFO 18828 --- [DiasoftTest] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=50a78b7f-1351-3dc9-ab12-dc726ff47c0e
+2024-08-03T18:50:56.154+03:00  INFO 18828 --- [DiasoftTest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-03T18:50:56.169+03:00  INFO 18828 --- [DiasoftTest] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-03T18:50:56.169+03:00  INFO 18828 --- [DiasoftTest] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-03T18:50:56.258+03:00  INFO 18828 --- [DiasoftTest] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-03T18:50:56.259+03:00  INFO 18828 --- [DiasoftTest] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1769 ms
+2024-08-03T18:50:56.500+03:00  INFO 18828 --- [DiasoftTest] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-03T18:50:56.572+03:00  INFO 18828 --- [DiasoftTest] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-03T18:50:56.620+03:00  INFO 18828 --- [DiasoftTest] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-03T18:50:57.090+03:00  INFO 18828 --- [DiasoftTest] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-03T18:50:57.130+03:00  INFO 18828 --- [DiasoftTest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-03T18:50:57.327+03:00  INFO 18828 --- [DiasoftTest] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@bc8d68b
+2024-08-03T18:50:57.335+03:00  INFO 18828 --- [DiasoftTest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-03T18:50:57.383+03:00  WARN 18828 --- [DiasoftTest] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-03T18:50:58.578+03:00  INFO 18828 --- [DiasoftTest] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-03T18:50:58.610+03:00  WARN 18828 --- [DiasoftTest] [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-08-03T18:50:58.611+03:00  WARN 18828 --- [DiasoftTest] [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "requests" does not exist, skipping
+2024-08-03T18:50:58.632+03:00  INFO 18828 --- [DiasoftTest] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03T18:50:59.016+03:00  WARN 18828 --- [DiasoftTest] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-03T18:50:59.829+03:00  INFO 18828 --- [DiasoftTest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-03T18:50:59.970+03:00  INFO 18828 --- [DiasoftTest] [main] c.e.diasofttest.DiasoftTestApplication   : Started DiasoftTestApplication in 7.734 seconds (process running for 8.857)
+2024-08-03T18:51:03.865+03:00  INFO 18828 --- [DiasoftTest] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-03T18:51:03.865+03:00  INFO 18828 --- [DiasoftTest] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-03T18:51:03.867+03:00  INFO 18828 --- [DiasoftTest] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-08-03T18:51:21.337+03:00  INFO 18828 --- [DiasoftTest] [http-nio-8080-exec-1] c.e.d.service.impl.AnimalServiceImpl     : UUID: 17e4036e-6d12-4a7c-a84d-00a3564642c9, HTTP Status: 200, Animal Names: 
+2024-08-03T18:51:48.531+03:00  WARN 18828 --- [DiasoftTest] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=51s90ms180µs200ns).
+2024-08-03T18:51:59.247+03:00  INFO 18828 --- [DiasoftTest] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03T18:51:59.263+03:00  INFO 18828 --- [DiasoftTest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-03T18:51:59.281+03:00  INFO 18828 --- [DiasoftTest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-03T18:54:43.404+03:00  INFO 22176 --- [DiasoftTest] [main] c.e.diasofttest.DiasoftTestApplication   : Starting DiasoftTestApplication using Java 17.0.12 with PID 22176 (C:\Users\awsma\IdeaProjects\DiasoftTest\build\classes\java\main started by awsma in C:\Users\awsma\IdeaProjects\DiasoftTest)
+2024-08-03T18:54:43.411+03:00  INFO 22176 --- [DiasoftTest] [main] c.e.diasofttest.DiasoftTestApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T18:54:43.493+03:00  INFO 22176 --- [DiasoftTest] [main] .s.b.d.c.l.DockerComposeLifecycleManager : Using Docker Compose file 'C:\Users\awsma\IdeaProjects\DiasoftTest\compose.yaml'
+2024-08-03T18:54:45.217+03:00  INFO 22176 --- [DiasoftTest] [main] .s.b.d.c.l.DockerComposeLifecycleManager : There are already Docker Compose services running, skipping startup
+2024-08-03T18:54:46.345+03:00  INFO 22176 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-03T18:54:46.348+03:00  INFO 22176 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-08-03T18:54:46.398+03:00  INFO 22176 --- [DiasoftTest] [main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.diasofttest.repository.RequestRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-08-03T18:54:46.399+03:00  INFO 22176 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 0 JDBC repository interfaces.
+2024-08-03T18:54:46.415+03:00  INFO 22176 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-03T18:54:46.416+03:00  INFO 22176 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-03T18:54:46.449+03:00  INFO 22176 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interface.
+2024-08-03T18:54:46.716+03:00  INFO 22176 --- [DiasoftTest] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=50a78b7f-1351-3dc9-ab12-dc726ff47c0e
+2024-08-03T18:54:47.152+03:00  INFO 22176 --- [DiasoftTest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-03T18:54:47.180+03:00  INFO 22176 --- [DiasoftTest] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-03T18:54:47.180+03:00  INFO 22176 --- [DiasoftTest] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-03T18:54:47.268+03:00  INFO 22176 --- [DiasoftTest] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-03T18:54:47.268+03:00  INFO 22176 --- [DiasoftTest] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1808 ms
+2024-08-03T18:54:47.630+03:00  INFO 22176 --- [DiasoftTest] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-03T18:54:47.766+03:00  INFO 22176 --- [DiasoftTest] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-03T18:54:47.892+03:00  INFO 22176 --- [DiasoftTest] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-03T18:54:49.031+03:00  INFO 22176 --- [DiasoftTest] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-03T18:54:49.119+03:00  INFO 22176 --- [DiasoftTest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-03T18:54:49.345+03:00  INFO 22176 --- [DiasoftTest] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1b8d20e6
+2024-08-03T18:54:49.348+03:00  INFO 22176 --- [DiasoftTest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-03T18:54:49.430+03:00  WARN 22176 --- [DiasoftTest] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-03T18:54:51.049+03:00  INFO 22176 --- [DiasoftTest] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-03T18:54:51.080+03:00  WARN 22176 --- [DiasoftTest] [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-08-03T18:54:51.080+03:00  WARN 22176 --- [DiasoftTest] [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "requests" does not exist, skipping
+2024-08-03T18:54:51.112+03:00  INFO 22176 --- [DiasoftTest] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03T18:54:51.499+03:00  WARN 22176 --- [DiasoftTest] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-03T18:54:52.635+03:00  INFO 22176 --- [DiasoftTest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-03T18:54:52.793+03:00  INFO 22176 --- [DiasoftTest] [main] c.e.diasofttest.DiasoftTestApplication   : Started DiasoftTestApplication in 10.723 seconds (process running for 12.797)
+2024-08-03T18:56:05.167+03:00  INFO 22176 --- [DiasoftTest] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-03T18:56:05.168+03:00  INFO 22176 --- [DiasoftTest] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-03T18:56:05.170+03:00  INFO 22176 --- [DiasoftTest] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-03T18:57:15.644+03:00  WARN 22176 --- [DiasoftTest] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=56s157ms125µs100ns).
+2024-08-03T18:57:16.067+03:00  INFO 22176 --- [DiasoftTest] [http-nio-8080-exec-2] c.e.d.service.impl.AnimalServiceImpl     : UUID: 6ba927ec-5493-4b9c-ad91-2f9f726f74fb, HTTP Status: 200, Animal Names: Squeaky,Webber,Polly,Daisy,Squeaky,Rover,Webber,Slither
+2024-08-03T18:58:44.323+03:00  INFO 22176 --- [DiasoftTest] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03T18:58:44.343+03:00  INFO 22176 --- [DiasoftTest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-03T18:58:44.346+03:00  INFO 22176 --- [DiasoftTest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-03T18:58:57.519+03:00  INFO 3800 --- [DiasoftTest] [main] c.e.diasofttest.DiasoftTestApplication   : Starting DiasoftTestApplication using Java 17.0.12 with PID 3800 (C:\Users\awsma\IdeaProjects\DiasoftTest\build\classes\java\main started by awsma in C:\Users\awsma\IdeaProjects\DiasoftTest)
+2024-08-03T18:58:57.526+03:00  INFO 3800 --- [DiasoftTest] [main] c.e.diasofttest.DiasoftTestApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T18:58:57.613+03:00  INFO 3800 --- [DiasoftTest] [main] .s.b.d.c.l.DockerComposeLifecycleManager : Using Docker Compose file 'C:\Users\awsma\IdeaProjects\DiasoftTest\compose.yaml'
+2024-08-03T18:58:58.942+03:00  INFO 3800 --- [DiasoftTest] [main] .s.b.d.c.l.DockerComposeLifecycleManager : There are already Docker Compose services running, skipping startup
+2024-08-03T18:59:00.106+03:00  INFO 3800 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-03T18:59:00.109+03:00  INFO 3800 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-08-03T18:59:00.145+03:00  INFO 3800 --- [DiasoftTest] [main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.diasofttest.repository.RequestRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-08-03T18:59:00.146+03:00  INFO 3800 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 0 JDBC repository interfaces.
+2024-08-03T18:59:00.159+03:00  INFO 3800 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-03T18:59:00.161+03:00  INFO 3800 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-03T18:59:00.194+03:00  INFO 3800 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interface.
+2024-08-03T18:59:00.463+03:00  INFO 3800 --- [DiasoftTest] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=50a78b7f-1351-3dc9-ab12-dc726ff47c0e
+2024-08-03T18:59:00.950+03:00  INFO 3800 --- [DiasoftTest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-03T18:59:00.966+03:00  INFO 3800 --- [DiasoftTest] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-03T18:59:00.966+03:00  INFO 3800 --- [DiasoftTest] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-03T18:59:01.048+03:00  INFO 3800 --- [DiasoftTest] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-03T18:59:01.049+03:00  INFO 3800 --- [DiasoftTest] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1856 ms
+2024-08-03T18:59:01.284+03:00  INFO 3800 --- [DiasoftTest] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-03T18:59:01.366+03:00  INFO 3800 --- [DiasoftTest] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-03T18:59:01.417+03:00  INFO 3800 --- [DiasoftTest] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-03T18:59:02.134+03:00  INFO 3800 --- [DiasoftTest] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-03T18:59:02.194+03:00  INFO 3800 --- [DiasoftTest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-03T18:59:02.554+03:00  INFO 3800 --- [DiasoftTest] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@284c4f02
+2024-08-03T18:59:02.566+03:00  INFO 3800 --- [DiasoftTest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-03T18:59:02.657+03:00  WARN 3800 --- [DiasoftTest] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-03T18:59:04.144+03:00  INFO 3800 --- [DiasoftTest] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-03T18:59:04.183+03:00  WARN 3800 --- [DiasoftTest] [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-08-03T18:59:04.184+03:00  WARN 3800 --- [DiasoftTest] [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "requests" does not exist, skipping
+2024-08-03T18:59:04.215+03:00  INFO 3800 --- [DiasoftTest] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03T18:59:04.848+03:00  WARN 3800 --- [DiasoftTest] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-03T18:59:06.192+03:00  INFO 3800 --- [DiasoftTest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-03T18:59:06.330+03:00  INFO 3800 --- [DiasoftTest] [main] c.e.diasofttest.DiasoftTestApplication   : Started DiasoftTestApplication in 9.567 seconds (process running for 10.538)
+2024-08-03T18:59:11.820+03:00  INFO 3800 --- [DiasoftTest] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-03T18:59:11.829+03:00  INFO 3800 --- [DiasoftTest] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-03T18:59:11.835+03:00  INFO 3800 --- [DiasoftTest] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-08-03T18:59:12.517+03:00  INFO 3800 --- [DiasoftTest] [http-nio-8080-exec-2] c.e.d.service.impl.AnimalServiceImpl     : Attempt to fetch animal names, UUID: f3fbb555-5002-4fc7-9070-aea87debdcc7, HTTP Status: 200, Animal Names: Spike,Whiskers
+2024-08-03T18:59:21.528+03:00  INFO 3800 --- [DiasoftTest] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03T18:59:21.545+03:00  INFO 3800 --- [DiasoftTest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-03T18:59:21.548+03:00  INFO 3800 --- [DiasoftTest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-03T19:00:09.947+03:00  INFO 9784 --- [DiasoftTest] [main] c.e.diasofttest.DiasoftTestApplication   : Starting DiasoftTestApplication using Java 17.0.12 with PID 9784 (C:\Users\awsma\IdeaProjects\DiasoftTest\build\classes\java\main started by awsma in C:\Users\awsma\IdeaProjects\DiasoftTest)
+2024-08-03T19:00:09.951+03:00  INFO 9784 --- [DiasoftTest] [main] c.e.diasofttest.DiasoftTestApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T19:00:10.027+03:00  INFO 9784 --- [DiasoftTest] [main] .s.b.d.c.l.DockerComposeLifecycleManager : Using Docker Compose file 'C:\Users\awsma\IdeaProjects\DiasoftTest\compose.yaml'
+2024-08-03T19:00:11.754+03:00  INFO 9784 --- [DiasoftTest] [main] .s.b.d.c.l.DockerComposeLifecycleManager : There are already Docker Compose services running, skipping startup
+2024-08-03T19:00:13.049+03:00  INFO 9784 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-03T19:00:13.050+03:00  INFO 9784 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-08-03T19:00:13.084+03:00  INFO 9784 --- [DiasoftTest] [main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.diasofttest.repository.RequestRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-08-03T19:00:13.085+03:00  INFO 9784 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 0 JDBC repository interfaces.
+2024-08-03T19:00:13.101+03:00  INFO 9784 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-03T19:00:13.103+03:00  INFO 9784 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-03T19:00:13.139+03:00  INFO 9784 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interface.
+2024-08-03T19:00:13.383+03:00  INFO 9784 --- [DiasoftTest] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=50a78b7f-1351-3dc9-ab12-dc726ff47c0e
+2024-08-03T19:00:13.798+03:00  INFO 9784 --- [DiasoftTest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-03T19:00:13.816+03:00  INFO 9784 --- [DiasoftTest] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-03T19:00:13.816+03:00  INFO 9784 --- [DiasoftTest] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-03T19:00:13.934+03:00  INFO 9784 --- [DiasoftTest] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-03T19:00:13.935+03:00  INFO 9784 --- [DiasoftTest] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1956 ms
+2024-08-03T19:00:14.365+03:00  INFO 9784 --- [DiasoftTest] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-03T19:00:14.447+03:00  INFO 9784 --- [DiasoftTest] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-03T19:00:14.495+03:00  INFO 9784 --- [DiasoftTest] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-03T19:00:15.078+03:00  INFO 9784 --- [DiasoftTest] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-03T19:00:15.115+03:00  INFO 9784 --- [DiasoftTest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-03T19:00:15.334+03:00  INFO 9784 --- [DiasoftTest] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@35e689a0
+2024-08-03T19:00:15.336+03:00  INFO 9784 --- [DiasoftTest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-03T19:00:15.376+03:00  WARN 9784 --- [DiasoftTest] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-03T19:00:16.967+03:00  INFO 9784 --- [DiasoftTest] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-03T19:00:17.009+03:00  WARN 9784 --- [DiasoftTest] [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-08-03T19:00:17.009+03:00  WARN 9784 --- [DiasoftTest] [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "requests" does not exist, skipping
+2024-08-03T19:00:17.034+03:00  INFO 9784 --- [DiasoftTest] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03T19:00:17.550+03:00  WARN 9784 --- [DiasoftTest] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-03T19:00:18.691+03:00  INFO 9784 --- [DiasoftTest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-03T19:00:18.831+03:00  INFO 9784 --- [DiasoftTest] [main] c.e.diasofttest.DiasoftTestApplication   : Started DiasoftTestApplication in 9.552 seconds (process running for 10.332)
+2024-08-03T19:00:29.255+03:00  INFO 9784 --- [DiasoftTest] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-03T19:00:29.258+03:00  INFO 9784 --- [DiasoftTest] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-03T19:00:29.263+03:00  INFO 9784 --- [DiasoftTest] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-08-03T19:00:29.935+03:00  INFO 9784 --- [DiasoftTest] [http-nio-8080-exec-2] c.e.d.service.impl.AnimalServiceImpl     : Attempt to fetch animal names, UUID: e4e3b225-7dec-4a7c-8929-d8c2c7718dd1, HTTP Status: 200, Animal Names: Rover,Daisy,Rover,Whiskers,Rover,Rover,Spike,Shelly,Spike,Polly
+2024-08-03T19:01:58.549+03:00  INFO 9784 --- [DiasoftTest] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03T19:01:58.567+03:00  INFO 9784 --- [DiasoftTest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-03T19:01:58.570+03:00  INFO 9784 --- [DiasoftTest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-03T19:32:31.632+03:00  INFO 12240 --- [DiasoftTest] [main] c.e.diasofttest.DiasoftTestApplication   : Starting DiasoftTestApplication using Java 17.0.12 with PID 12240 (C:\Users\awsma\IdeaProjects\DiasoftTest\build\classes\java\main started by awsma in C:\Users\awsma\IdeaProjects\DiasoftTest)
+2024-08-03T19:32:31.635+03:00  INFO 12240 --- [DiasoftTest] [main] c.e.diasofttest.DiasoftTestApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T19:32:31.708+03:00  INFO 12240 --- [DiasoftTest] [main] .s.b.d.c.l.DockerComposeLifecycleManager : Using Docker Compose file 'C:\Users\awsma\IdeaProjects\DiasoftTest\compose.yaml'
+2024-08-03T19:32:33.266+03:00  INFO 12240 --- [DiasoftTest] [OutputReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container diasofttest-postgres-1  Created
+2024-08-03T19:32:33.271+03:00  INFO 12240 --- [DiasoftTest] [OutputReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container diasofttest-postgres-1  Starting
+2024-08-03T19:32:33.937+03:00  INFO 12240 --- [DiasoftTest] [OutputReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container diasofttest-postgres-1  Started
+2024-08-03T19:32:33.938+03:00  INFO 12240 --- [DiasoftTest] [OutputReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container diasofttest-postgres-1  Waiting
+2024-08-03T19:32:34.456+03:00  INFO 12240 --- [DiasoftTest] [OutputReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container diasofttest-postgres-1  Healthy
+2024-08-03T19:32:36.356+03:00  INFO 12240 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-03T19:32:36.358+03:00  INFO 12240 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-08-03T19:32:36.393+03:00  INFO 12240 --- [DiasoftTest] [main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.diasofttest.repository.RequestRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-08-03T19:32:36.395+03:00  INFO 12240 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 0 JDBC repository interfaces.
+2024-08-03T19:32:36.409+03:00  INFO 12240 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-03T19:32:36.410+03:00  INFO 12240 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-03T19:32:36.460+03:00  INFO 12240 --- [DiasoftTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interface.
+2024-08-03T19:32:36.775+03:00  INFO 12240 --- [DiasoftTest] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=50a78b7f-1351-3dc9-ab12-dc726ff47c0e
+2024-08-03T19:32:37.215+03:00  INFO 12240 --- [DiasoftTest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-03T19:32:37.225+03:00  INFO 12240 --- [DiasoftTest] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-03T19:32:37.225+03:00  INFO 12240 --- [DiasoftTest] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-03T19:32:37.294+03:00  INFO 12240 --- [DiasoftTest] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-03T19:32:37.296+03:00  INFO 12240 --- [DiasoftTest] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1884 ms
+2024-08-03T19:32:37.512+03:00  INFO 12240 --- [DiasoftTest] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-03T19:32:37.575+03:00  INFO 12240 --- [DiasoftTest] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-03T19:32:37.615+03:00  INFO 12240 --- [DiasoftTest] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-03T19:32:38.238+03:00  INFO 12240 --- [DiasoftTest] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-03T19:32:38.288+03:00  INFO 12240 --- [DiasoftTest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-03T19:32:38.501+03:00  INFO 12240 --- [DiasoftTest] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6b2e9db2
+2024-08-03T19:32:38.503+03:00  INFO 12240 --- [DiasoftTest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-03T19:32:38.546+03:00  WARN 12240 --- [DiasoftTest] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-03T19:32:39.938+03:00  INFO 12240 --- [DiasoftTest] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-03T19:32:39.990+03:00  WARN 12240 --- [DiasoftTest] [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-08-03T19:32:39.990+03:00  WARN 12240 --- [DiasoftTest] [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "requests" does not exist, skipping
+2024-08-03T19:32:40.060+03:00  INFO 12240 --- [DiasoftTest] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03T19:32:40.823+03:00  WARN 12240 --- [DiasoftTest] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-03T19:32:41.966+03:00  INFO 12240 --- [DiasoftTest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-03T19:32:42.177+03:00  INFO 12240 --- [DiasoftTest] [main] c.e.diasofttest.DiasoftTestApplication   : Started DiasoftTestApplication in 11.268 seconds (process running for 12.244)
+2024-08-03T19:32:45.900+03:00  INFO 12240 --- [DiasoftTest] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-03T19:32:45.900+03:00  INFO 12240 --- [DiasoftTest] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-03T19:32:45.903+03:00  INFO 12240 --- [DiasoftTest] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-08-03T19:32:46.897+03:00  INFO 12240 --- [DiasoftTest] [http-nio-8080-exec-1] c.e.d.service.impl.AnimalServiceImpl     : Attempt to fetch animal names, UUID: f94ac853-9913-458c-8552-f5fed4238b07, HTTP Status: 200, Animal Names: Rover,Slither,Polly,Polly
+2024-08-03T19:32:51.194+03:00  INFO 12240 --- [DiasoftTest] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03T19:32:51.214+03:00  INFO 12240 --- [DiasoftTest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-03T19:32:51.217+03:00  INFO 12240 --- [DiasoftTest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
